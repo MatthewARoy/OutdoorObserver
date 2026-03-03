@@ -1,0 +1,59 @@
+In this new design, the app has been evolved to provide a structured, lesson-based approach to outdoor exploration, using the previous concepts as a foundation.
+
+### Core Concepts
+
+1. **Guided Nature Lesson AR Mode**: This feature replaces a general exploration experience with explicit, sequential lessons. The user is guided from a high-level lesson card to active outdoor tasks, such as finding a specific flower type.
+2. **Interactive Plant Biology**: Instead of simple part identification, the app uses AR overlays and animations to teach concepts. For instance, in the 'Plant Reproduction' lesson, users point their camera, interact with plant parts (like touching the carpel), and trigger an animation of a bee to understand pollination, complete with a visual representation of pollen movement.
+3. **Learner's Nature Journal**: The collection screen has been transformed into a educational record. Users can access structured 'Nature Logs' that detail specific observations, highlight key points learned during the lesson (e.g., how pollinators move pollen, or how leaves breathe), and include visual progress indicators.
+
+---
+
+### PRD for App Implementation
+
+#### 1. Introduction & Goals
+
+* **Purpose**: To provide a platform for structured, interactive, and outdoor-focused science and nature education using AR.
+* **Primary Goal**: Increase user understanding of complex biological concepts by overlaying lessons onto physical nature.
+* **Target Audience**: Students, parents looking for educational outdoor activities, and adult learners interested in biology.
+
+#### 2. Key Features
+
+* **A. Guided Lesson Engine (Lesson Mode)**:
+* Curated lessons that start with an explicit learning objective.
+* Example: 'Lesson 1: Plant Reproduction' with sequential tasks (Find -> Interact -> View animation).
+* Interactive 'Check' prompts to guide users toward correct identification of plant parts (e.g., highlighting stamens vs. carpel).
+
+
+* **B. Interactive AR Animations**:
+* Animated visual aids that explain invisible processes (e.g., animated bees moving between flowers, visual lines for pollen flow) triggered by user interaction.
+* Detailed part examination with textual explainers (e.g., stomata function).
+
+
+* **C. Enhanced Nature Journal (The Log)**:
+* A grid of completed 'badges' or lesson progress indicators.
+* Detailed 'Nature Log' pages for each lesson, including: a user-captured photo of the plant, explicit 'Key Points Learned' section, and an area for personal notes.
+
+
+* **D. Lesson Progress Tracker**: A visual bar indicating completion percentage for each topic or overall course.
+
+#### 3. User Flow
+
+1. **Select Lesson**: User enters the app and selects a guided lesson topic (e.g., 'Life Cycles').
+2. **Lesson Start**: App provides context and a specific 'Focus Card' (e.g., "Press start to begin your outdoor journey.").
+3. **Active Search**: App prompts user for an outdoor action (e.g., "Find a plant with flowers.").
+4. **Interactive AR Experience**: User uses AR camera to identify parts, and triggers specific animations that explain biological processes.
+5. **Reflect and Log**: At the end of the lesson, user records key learnings in their Nature Journal, which saves a complete 'Nature Log'.
+
+#### 4. Technical Requirements
+
+* **Platform**: Cross-platform (iOS and Android).
+* **AR Engine**: Advanced AR core utilization for consistent tracking, magnification, and reliable interaction with tiny plant parts in varied lighting.
+* **Sensors**: GSP for environmental context, high-resolution camera, and precise touch detection on AR overlays.
+* **Data Structure**: A structured data model that links specific plant species to pre-built lesson animations and knowledge points.
+
+#### 5. Success Metrics
+
+* **Retention**: Percentage of users who complete multi-lesson courses.
+* **Knowledge Acquisition**: (Optional) In-app quizzes to measure learning outcomes.
+* **Engagement**: Length of lesson sessions (longer sessions indicate higher engagement, the opposite of the previous concept).
+* **Journal Completion**: The ratio of completed 'Nature Logs' to total lessons attempted.

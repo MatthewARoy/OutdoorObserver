@@ -1,0 +1,86 @@
+import { Plant } from '@/src/types';
+
+export const mockPlants: Plant[] = [
+  {
+    id: 'plant-strawberry',
+    commonName: 'Strawberry Plant',
+    scientificName: 'Fragaria × ananassa',
+    imageUri: 'https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=400',
+    description: 'A low-growing perennial plant that produces sweet red fruit. Strawberry plants spread through runners and are one of the most popular garden fruits worldwide.',
+    parts: [
+      { id: 'sp-roots', name: 'Roots', description: 'Fibrous root system that absorbs water and nutrients', learnedFact: 'Strawberry roots are shallow, growing mostly in the top 6 inches of soil.' },
+      { id: 'sp-leaves', name: 'Leaves', description: 'Trifoliate leaves with serrated edges', learnedFact: 'Each strawberry leaf has three leaflets, which is why they are called trifoliate.' },
+      { id: 'sp-flower', name: 'Flower', description: 'White flowers with five petals and yellow centers', learnedFact: 'Strawberry flowers contain both male (stamens) and female (pistils) parts.' },
+      { id: 'sp-fruit', name: 'Fruit', description: 'Red, fleshy accessory fruit covered in seeds', learnedFact: 'What we call the "seeds" are actually the true fruits (achenes) of the strawberry.' },
+    ],
+    funFact: 'A single strawberry has about 200 seeds on its surface!',
+  },
+  {
+    id: 'plant-sunflower',
+    commonName: 'Sunflower',
+    scientificName: 'Helianthus annuus',
+    imageUri: 'https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=400',
+    description: 'A tall annual plant known for its large, bright yellow flower heads that track the sun. Sunflowers can grow up to 12 feet tall.',
+    parts: [
+      { id: 'sf-stem', name: 'Stem', description: 'Tall, sturdy, hairy stem that supports the flower head', learnedFact: 'Young sunflower stems exhibit heliotropism — they turn to follow the sun across the sky.' },
+      { id: 'sf-leaves', name: 'Leaves', description: 'Large, broad leaves arranged alternately', learnedFact: 'Sunflower leaves can be up to 12 inches wide and help capture maximum sunlight for photosynthesis.' },
+      { id: 'sf-flower', name: 'Flower Head', description: 'Actually hundreds of tiny flowers arranged in a spiral', learnedFact: 'A sunflower head is made of up to 2,000 individual florets arranged in a Fibonacci spiral.' },
+      { id: 'sf-seeds', name: 'Seeds', description: 'Nutrient-rich seeds packed in the center of the flower', learnedFact: 'Sunflower seeds are arranged in interlocking spirals following the Fibonacci sequence.' },
+    ],
+    funFact: 'Sunflowers can be used to clean up radioactive soil through a process called phytoremediation!',
+  },
+  {
+    id: 'plant-fern',
+    commonName: 'Boston Fern',
+    scientificName: 'Nephrolepis exaltata',
+    imageUri: 'https://images.unsplash.com/photo-1525498128493-380d1990a112?w=400',
+    description: 'A lush, feathery fern with arching fronds. Boston ferns are among the oldest plant species, dating back over 350 million years.',
+    parts: [
+      { id: 'fn-fronds', name: 'Fronds', description: 'Long, arching leaves divided into many small leaflets', learnedFact: 'Fern fronds unfurl from coiled structures called fiddleheads, named for their resemblance to violin scrolls.' },
+      { id: 'fn-roots', name: 'Roots', description: 'Rhizome root system that spreads underground', learnedFact: 'Ferns have a rhizome — a horizontal underground stem from which roots and fronds grow.' },
+      { id: 'fn-spores', name: 'Spores', description: 'Reproductive structures found on the underside of fronds', learnedFact: 'Unlike flowering plants, ferns reproduce through spores, not seeds. Spores are found in clusters called sori.' },
+    ],
+    funFact: 'Ferns are older than dinosaurs — they first appeared about 360 million years ago!',
+  },
+  {
+    id: 'plant-oak',
+    commonName: 'Oak Tree',
+    scientificName: 'Quercus robur',
+    imageUri: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400',
+    description: 'A majestic deciduous tree known for its strength and longevity. Oak trees can live for hundreds of years and support diverse ecosystems.',
+    parts: [
+      { id: 'ok-leaves', name: 'Leaves', description: 'Lobed leaves with a distinctive wavy edge', learnedFact: 'Oak leaves have special stomata on their underside that open and close to regulate water loss and gas exchange.' },
+      { id: 'ok-bark', name: 'Bark', description: 'Thick, deeply furrowed protective bark', learnedFact: 'Oak bark contains tannins that protect the tree from fungi and insects — humans have used these tannins for leather tanning for centuries.' },
+      { id: 'ok-acorn', name: 'Acorn', description: 'The nut-like fruit of the oak tree', learnedFact: 'An oak tree may produce 70,000 acorns per year, but only about 1 in 10,000 will grow into a new tree.' },
+      { id: 'ok-roots', name: 'Roots', description: 'Deep taproot with spreading lateral roots', learnedFact: 'An oak tree\'s root system can extend two to three times wider than its canopy.' },
+    ],
+    funFact: 'A single mature oak tree can support over 2,300 different species of wildlife!',
+  },
+  {
+    id: 'plant-daisy',
+    commonName: 'Daisy',
+    scientificName: 'Bellis perennis',
+    imageUri: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=400',
+    description: 'A cheerful perennial wildflower with white petals and a bright yellow center. Daisies are found on every continent except Antarctica.',
+    parts: [
+      { id: 'dy-petals', name: 'Ray Florets', description: 'White petal-like structures around the edge', learnedFact: 'What look like petals are actually individual flowers called ray florets, each one a complete flower.' },
+      { id: 'dy-center', name: 'Disc Florets', description: 'Tiny yellow flowers packed in the center', learnedFact: 'The yellow center is made of hundreds of tiny tube-shaped disc florets that produce pollen and nectar.' },
+      { id: 'dy-stem', name: 'Stem', description: 'A single leafless flower stalk', learnedFact: 'Daisy stems are called peduncles and they close at night and reopen in the morning — a behavior called nyctinasty.' },
+    ],
+    funFact: 'The name "daisy" comes from "day\'s eye" because the flower opens at dawn and closes at dusk!',
+  },
+  {
+    id: 'plant-rose',
+    commonName: 'Rose',
+    scientificName: 'Rosa gallica',
+    imageUri: 'https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=400',
+    description: 'An iconic flowering plant known for its beauty and fragrance. Roses have been cultivated for thousands of years and come in hundreds of varieties.',
+    parts: [
+      { id: 'rs-petals', name: 'Petals', description: 'Soft, layered petals that form the bloom', learnedFact: 'Rose petals contain natural oils that give each variety its unique scent — over 300 chemical compounds contribute to rose fragrance.' },
+      { id: 'rs-thorns', name: 'Thorns', description: 'Sharp prickles along the stem', learnedFact: 'Rose "thorns" are technically prickles — they grow from the outer layer of the stem, unlike true thorns which grow from inside.' },
+      { id: 'rs-leaves', name: 'Leaves', description: 'Compound leaves with serrated leaflets', learnedFact: 'Rose leaves are pinnately compound, usually with 5-7 leaflets, and they photosynthesize to feed the energy-demanding blooms.' },
+      { id: 'rs-hip', name: 'Rose Hip', description: 'The fruit that forms after the flower fades', learnedFact: 'Rose hips contain more vitamin C than oranges and have been used in teas and medicines for centuries.' },
+    ],
+    funFact: 'The oldest living rose bush is over 1,000 years old and grows on a cathedral wall in Hildesheim, Germany!',
+  },
+];
