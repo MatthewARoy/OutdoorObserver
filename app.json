@@ -10,7 +10,10 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.outdoorobserver.app"
+      "bundleIdentifier": "com.outdoorobserver.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -56,8 +59,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "a044a4a5-d5c2-4d98-ba0e-045024c73074"
+        "projectId": "69ca62a5-9b03-468c-bb94-f96fe90c3b6a"
       }
-    }
+    },
+    "owner": "davaned"
   }
 }

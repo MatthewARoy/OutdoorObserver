@@ -12,7 +12,23 @@
       "Bash(ls:*)",
       "Bash(gh auth:*)",
       "Bash(export:*)",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "WebFetch(domain:my.plantnet.org)",
+      "WebFetch(domain:web.plant.id)",
+      "WebFetch(domain:documenter.getpostman.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.kindwise.com)",
+      "Bash(find:*)",
+      "Bash(git remote:*)",
+      "Bash(npm test:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(grep:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(npm run:*)",
+      "Bash(npx eas:*)",
+      "Bash(npx eas-cli:*)"
     ]
   }
 }
